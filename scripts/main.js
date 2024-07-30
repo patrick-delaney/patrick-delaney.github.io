@@ -68,7 +68,7 @@ $(document).ready(function() {
         // $('#fixed-' + activeData).addClass(activeData + '-active');
         console.log(activeData);
         
-        $('section.section-header').removeClass('theme-dark theme-light theme-page').addClass(activeData);
+        $('section.section-header').removeClass('theme-dark theme-light theme-page theme-backing-light').addClass(activeData);
       }
     });
   }
