@@ -66,14 +66,11 @@ $(document).ready(function() {
       var activeData = $(this).data('theme');
       if ($(this).isInViewport()) {
         // $('#fixed-' + activeData).addClass(activeData + '-active');
-        console.log(activeData);
-        
         $('section.section-header').removeClass('theme-dark theme-light theme-page theme-backing-light').addClass(activeData);
       }
     });
   }
 
-  
 
   // ----------------------------------------------------------------
   // THROTTLED ON SCROLL
